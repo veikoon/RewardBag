@@ -1,0 +1,8 @@
+name: RewardBag
+version: 1.0
+author: veikoon
+main: fr.veikoon.rewardbag.RewardBag
+commands:
+  rw:
+    description: Permet de se give 64 RewardBag Communs
+    permission: RewardBag.rw

@@ -1,0 +1,193 @@
+config:
+  general:
+    inventory_name: RewardBag
+    inventory_color: 5
+    inventory_size: 9
+  commun: 
+    rate: 60
+    color: 7
+  rare:
+    rate: 35
+    color: b
+  epique:
+    rate: 5
+    color: 6
+Commun:
+  exemple:
+    4:
+      type: OAK_LEAVES
+      number: 5
+  exemple2:
+    4:
+      type: GRASS_BLOCK
+      number: 5
+  exemple3:
+    4:
+      type: COBBLESTONE
+      number: 64
+  exemple4:
+    0:
+      type: APPLE
+      number: 1
+    1:
+      type: APPLE
+      number: 1
+    2:
+      type: APPLE
+      number: 1
+    3:
+      type: APPLE
+      number: 1
+    4:
+      type: APPLE
+      number: 1
+    5:
+      type: APPLE
+      number: 1
+    6:
+      type: APPLE
+      number: 1
+    7:
+      type: APPLE
+      number: 1
+    8:
+      type: APPLE
+      number: 1
+  exemple5:
+    2:
+      type: WOODEN_AXE
+      number: 1
+    3:
+      type: WOODEN_HOE
+      number: 1
+    4:
+      type: WOODEN_PICKAXE
+      number: 1
+    5:
+      type: WOODEN_SHOVEL
+      number: 1
+    6:
+      type: WOODEN_SWORD
+      number: 1
+Rare:
+  exemple:
+    4:
+      type: IRON_INGOT
+      number: 10
+  exemple2:
+    4:
+      type: GOLD_INGOT
+      number: 5
+  exemple3:
+    4:
+      type: OBSIDIAN
+      number: 4
+  exemple4:
+    4:
+      type: DIAMOND
+      number: 2
+  exemple5:
+    0:
+      type: MELON
+      number: 1
+    1:
+      type: MELON
+      number: 1
+    2:
+      type: MELON
+      number: 1
+    3:
+      type: MELON
+      number: 1
+    4:
+      type: MELON
+      number: 1
+    5:
+      type: MELON
+      number: 1
+    6:
+      type: MELON
+      number: 1
+    7:
+      type: MELON
+      number: 1
+    8:
+      type: MELON
+      number: 1
+  exemple6:
+    2:
+      type: STONE_AXE
+      number: 1
+    3:
+      type: STONE_HOE
+      number: 1
+    4:
+      type: STONE_PICKAXE
+      number: 1
+    5:
+      type: STONE_SHOVEL
+      number: 1
+    6:
+      type: STONE_SWORD
+      number: 1
+Epique:
+  exemple:
+    4:
+      type: IRON_INGOT
+      number: 20
+  exemple2:
+    4:
+      type: GOLD_INGOT
+      number: 10
+  exemple3:
+    4:
+      type: OBSIDIAN
+      number: 8
+  exemple4:
+    4:
+      type: DIAMOND
+      number: 4
+  exemple5:
+    0:
+      type: GOLDEN_APPLE
+      number: 1
+    1:
+      type: GOLDEN_APPLE
+      number: 1
+    2:
+      type: GOLDEN_APPLE
+      number: 1
+    3:
+      type: GOLDEN_APPLE
+      number: 1
+    4:
+      type: GOLDEN_APPLE
+      number: 1
+    5:
+      type: GOLDEN_APPLE
+      number: 1
+    6:
+      type: GOLDEN_APPLE
+      number: 1
+    7:
+      type: GOLDEN_APPLE
+      number: 1
+    8:
+      type: GOLDEN_APPLE
+      number: 1
+  exemple6:
+    2:
+      type: IRON_AXE
+      number: 1
+    3:
+      type: IRON_HOE
+      number: 1
+    4:
+      type: IRON_PICKAXE
+      number: 1
+    5:
+      type: IRON_SHOVEL
+      number: 1
+    6:
+      type: IRON_SWORD
+      number: 1
