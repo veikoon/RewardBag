@@ -20,19 +20,21 @@ public class MobsLoot implements Listener {
 
 		this.main = helloworld;
 		
+		
 	}
 
 	@EventHandler
 	public void onKill(EntityDeathEvent e) {
-		
-		int random = rdm();
-		
-		if(random != 0) {
+		if(main.getActivate()) {
+			int random = rdm();
 			
-			Entity entity = e.getEntity();
-			World world = entity.getLocation().getWorld();
-			world.dropItem(entity.getLocation(), new Bag(random,main).getItem());
-			
+			if(random != 0) {
+				
+				Entity entity = e.getEntity();
+				World world = entity.getLocation().getWorld();
+				world.dropItem(entity.getLocation(), new Bag(random,main).getItem());
+				
+			}
 		}
 		
 	}
@@ -84,4 +86,5 @@ public class MobsLoot implements Listener {
 		return 0;
 		
 	}
+	
 }

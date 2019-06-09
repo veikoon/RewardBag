@@ -19,6 +19,7 @@
 
 config:
   general:
+    activate: true
     inventory_name: RewardBag
     inventory_color: 5
     inventory_size: 9
