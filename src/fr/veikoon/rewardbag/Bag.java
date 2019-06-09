@@ -42,11 +42,11 @@ public class Bag {
 	private String type(final int pType) {
 		switch(pType) {
 		case 1:
-			return "§" + main.getConfig().getString("config.commun.color") + "Commun";
+			return "§" + main.getConfig().getString("config.commun.color") + main.getConfig().getString("config.commun.name");
 		case 2:
-			return "§" + main.getConfig().getString("config.rare.color") + "Rare";
+			return "§" + main.getConfig().getString("config.rare.color") + main.getConfig().getString("config.rare.name");
 		case 3:
-			return "§" + main.getConfig().getString("config.epique.color") + "Epique";
+			return "§" + main.getConfig().getString("config.epique.color") + main.getConfig().getString("config.epique.name");
 		default:
 			return "";
 		}

@@ -1,3 +1,22 @@
+##################################### [ RewardBag ] #############################################
+#	WARNING all the color used in this plugin need to be one only character (tchat color).		#
+#	You can find them here: https://minecraft.tools/fr/color-code.php							#
+#	The rarity's names can be change but you have to change the subconfig with the same name.	#
+#	You can add as much "exemple" as you want.	                                                #
+#   The rates are in percent.                                                                   #
+#   The epic rate is tested first the it's rare then it's Common then there is not bag. 		#
+#   The size of the inventory, need to be a 9 factor (9-18-27-36-45-54)                         #
+#################################################################################################
+
+
+
+#Commun:                        Need to be exactly the same name that you defined before.
+#  exemple:                     We actualy don't care about the name, it could be anything.
+#    4:                         The slot where the item is.
+#      type: OAK_LEAVES         Need to be a spigot Material. --> https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#      number: 5                Ammount of this item.      
+
+
 config:
   general:
     inventory_name: RewardBag
@@ -6,12 +25,21 @@ config:
   commun: 
     rate: 60
     color: 7
+    name: Commun
   rare:
     rate: 35
     color: b
+    name: Rare
   epique:
     rate: 5
     color: 6
+    name: Epique
+    
+
+
+
+
+
 Commun:
   exemple:
     4:
@@ -69,6 +97,12 @@ Commun:
     6:
       type: WOODEN_SWORD
       number: 1
+    
+
+
+
+
+
 Rare:
   exemple:
     4:
@@ -130,6 +164,12 @@ Rare:
     6:
       type: STONE_SWORD
       number: 1
+    
+
+
+
+
+
 Epique:
   exemple:
     4:

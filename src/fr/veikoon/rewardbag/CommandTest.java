@@ -16,14 +16,17 @@ public class CommandTest implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender player, Command arg1, String arg2, String[] arg3) {
 		// TODO Auto-generated method stub
-		if(player instanceof Player) {
-			((Player) player).getInventory().addItem(new Bag(Integer.valueOf(arg3[0]),Integer.valueOf(arg3[1]),main).getItem());
-			//else player.sendMessage("Vous devez indiquer le type de RewardBag !\n1-Commun 2-Rare 3-Epique");
+		if(arg3[0].equals("give")) {
+			if(player instanceof Player) {
+				if(Integer.valueOf(arg3[1]) <=3 && Integer.valueOf(arg3[1]) >=1) {
+					((Player) player).getInventory().addItem(new Bag(Integer.valueOf(arg3[1]),Integer.valueOf(arg3[2]),main).getItem());
+				}
+				else player.sendMessage("Vous devez indiquer le type de RewardBag !\n1-Commun 2-Rare 3-Epique");
+			}
+			else player.sendMessage("Vous devez etre un joueur pour executer cette commande !");
 		}
-		else {
-			player.sendMessage("Vous devez etre un joueur pour executer cette commande !");
-		}
-		return false;
+		
+		return true;
 	}
 
 }

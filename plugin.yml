@@ -4,5 +4,5 @@ author: veikoon
 main: fr.veikoon.rewardbag.RewardBag
 commands:
   rw:
-    description: Permet de se give 64 RewardBag Communs
+    description: Allow the player to give items.
     permission: RewardBag.rw
