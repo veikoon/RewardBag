@@ -92,6 +92,7 @@ public class Commands implements CommandExecutor {
 				}
 				else if(arg3[2].equalsIgnoreCase("color")) setConfig("config.general.inventory_color", Integer.valueOf(arg3[3]));
 				else if(arg3[2].equalsIgnoreCase("size")) setConfig("config.general.inventory_size", Integer.valueOf(arg3[3]));
+				else if(arg3[2].equalsIgnoreCase("name")) setConfig("config.general.inventory_name", arg3[3]);
 				
 			}
 			

@@ -35,12 +35,6 @@ config:
     rate: 5
     color: 6
     name: Epique
-    
-
-
-
-
-
 Commun:
   exemple:
     4:
@@ -98,12 +92,6 @@ Commun:
     6:
       type: WOODEN_SWORD
       number: 1
-    
-
-
-
-
-
 Rare:
   exemple:
     4:
@@ -165,12 +153,6 @@ Rare:
     6:
       type: STONE_SWORD
       number: 1
-    
-
-
-
-
-
 Epique:
   exemple:
     4:
