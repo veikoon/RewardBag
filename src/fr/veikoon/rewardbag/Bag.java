@@ -15,6 +15,7 @@ public class Bag {
 	private RewardBag main;
 	
 	public Bag(final int pType, final int pNumber, final RewardBag RewardBag) {
+		
 		this.aType = pType;
 		this.main = RewardBag;
 		ItemStack rewardbag = new ItemStack(Material.TURTLE_EGG, pNumber);
@@ -25,6 +26,7 @@ public class Bag {
 		customM.addItemFlags(ItemFlag.HIDE_ENCHANTS);
 		rewardbag.setItemMeta(customM);
 		this.aItem = rewardbag;
+		
 	}
 	
 	public Bag(final int pType, final RewardBag RewardBag) {
@@ -40,7 +42,9 @@ public class Bag {
 	}
 	
 	private String type(final int pType) {
+		
 		switch(pType) {
+		
 		case 1:
 			return "§" + main.getConfig().getString("config.commun.color") + main.getConfig().getString("config.commun.name");
 		case 2:
@@ -49,7 +53,9 @@ public class Bag {
 			return "§" + main.getConfig().getString("config.epique.color") + main.getConfig().getString("config.epique.name");
 		default:
 			return "";
+			
 		}
+		
 	}
 	
 }

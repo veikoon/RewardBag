@@ -3,6 +3,7 @@ version: 1.0
 author: veikoon
 main: fr.veikoon.rewardbag.RewardBag
 commands:
-  rw:
-    description: Allow the player to give items.
+  reward:
+    description: Allow the player to give RewardBags.
     permission: RewardBag.rw
+    usage: /reward give [Rarity 1-3] [Ammount]
